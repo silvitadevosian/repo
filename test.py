@@ -44,10 +44,6 @@ def template_2():
     print(f"This weekend I am going camping with {Name}. I packed my lantern, sleeping bag, and {Noun}. I am so {Feel} to {Verb} in a tent. I am {Feel_2} we might see a(n) {Animal}, I hear they’re kind of dangerous. While we’re camping, we are going to hike, fish, and {Verb_2}. I have heard that the {Color} lake is great for {Verb_3}. Then we will {Adverb} hike through the forest for {Num} {Measure_time}. If I see a {Color_2} {Animal_2} while hiking, I am going to bring it home as a pet! At night we will tell {Num_2} {Silly_Word} stories and roast {Noun_2} around the campfire!!")
 
 def template_3():
-    Name= input("Noun(Person's name): ")
-    Adj = input('Adjective: ')
-    Color = input('Color: ')
-    Animal= input('Animal: ')
     Place = input('Place: ')
     Adj_2 = input('Adjective2: ')
     Magic_Creature = input('Magical Creature (Plural)')
@@ -55,6 +51,10 @@ def template_3():
     Magic_Creature_2 = input('Magical Creature (Plural)2')
     Room_house = input('Room in a House')
     Noun = input('Noun: ')
+    Name= input("Noun(Person's name): ")
+    Adj = input('Adjective: ')
+    Color = input('Color: ')
+    Animal= input('Animal: ')
     Noun_2 = input('Noun2: ')
     Noun_3= input('Noun3: ')
     Adj_4 = input('Adjective4: ')
